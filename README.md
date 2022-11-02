@@ -38,6 +38,7 @@
 [https://youtube.com/shorts/UyrRmyrwtPU?feature=share](https://youtube.com/shorts/UyrRmyrwtPU?feature=share)
 
 ### 프로젝트 리포지터리(깃허브 링크 등)
+[https://github.com/jiyounicorn/Nikey](https://github.com/jiyounicorn/Nikey)
 
 ### 완성물 접근 경로 및 실행 방법
 
