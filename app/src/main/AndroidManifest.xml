@@ -16,6 +16,24 @@
         android:theme="@style/Theme.Nikey"
         tools:targetApi="31">
 
+        <activity
+            android:name=".InformationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity_first"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.view.InputMethod" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3136625326865731~7052493358" />
+
         <service
             android:name=".KeyBoardService"
             android:enabled="true"
@@ -24,38 +42,19 @@
             android:permission="android.permission.BIND_INPUT_METHOD">
             <meta-data
                 android:name="android.view.im"
-                android:resource="@xml/xml"/>
+                android:resource="@xml/xml" />
 
             <intent-filter>
-                <action android:name="android.view.InputMethod"/>
+                <action android:name="android.view.InputMethod" />
             </intent-filter>
         </service>
-
-<!--        <meta-data-->
-<!--            android:name="com.google.android.gms.ads.APPLICATION_ID"-->
-<!--            android:value="ca-app-pub-3136625326865731~7052493358"/>-->
 
         <activity
             android:name=".RoomDetailActivity"
             android:exported="false" />
         <activity
             android:name=".DictionaryActivity"
-            android:exported="true" >
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.view.InputMethod"/>
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-            </intent-filter>
         </activity>
     </application>
 
