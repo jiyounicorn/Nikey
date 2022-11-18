@@ -80,29 +80,29 @@
             android:textSize="15dp"
             android:textStyle="normal" />
 
-<!--        <ImageView-->
-<!--            android:layout_width="182dp"-->
-<!--            android:layout_height="91dp"-->
-<!--            android:layout_centerHorizontal="true"-->
-<!--            android:layout_marginLeft="20dp"-->
-<!--            android:layout_marginTop="40dp"-->
-<!--            android:background="@drawable/img" />-->
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/thema1" />
 
-<!--        <ImageView-->
-<!--            android:layout_width="182dp"-->
-<!--            android:layout_height="91dp"-->
-<!--            android:layout_centerHorizontal="true"-->
-<!--            android:layout_marginLeft="20dp"-->
-<!--            android:layout_marginTop="150dp"-->
-<!--            android:background="@drawable/img_1" />-->
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/thema2" />
 
-<!--        <ImageView-->
-<!--            android:layout_width="182dp"-->
-<!--            android:layout_height="91dp"-->
-<!--            android:layout_centerHorizontal="true"-->
-<!--            android:layout_marginLeft="20dp"-->
-<!--            android:layout_marginTop="260dp"-->
-<!--            android:background="@drawable/img_2" />-->
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="260dp"
+            android:background="@drawable/thema3" />
 
         <RadioButton
             android:id="@+id/radioButton"
